@@ -94,48 +94,16 @@ char *termname = "st-256color";
 unsigned int tabspaces = 4;
 
 /* Terminal colors (16 first used in escape sequence) */
-
-///*  DEFAULT COLORS
-static const char *colorname[] = {
-	// 8 normal colors
-	"black",
-	"red3",
-	"green3",
-	"yellow3",
-	"blue2",
-	"magenta3",
-	"cyan3",
-	"gray90",
-
-	// 8 bright colors 
-	"gray50",
-	"red",
-	"green",
-	"yellow",
-	"#5c5cff",
-	"magenta",
-	"cyan",
-	"white",
-
-	[255] = 0,
-
-	// more colors can be added after 255 to use with DefaultXX 
-	"#cccccc",
-	"#555555",
-};
-//*/
-
-/*
 static const char *colorname[] = {
 	// 8 normal colors 
-	"21222c",
-	"ff5555",
-	"50fa7b",
-	"f1fa8c",
-	"bd93f8",
-	"ff79c6",
-	"8be9fd",
-	"f8f8f8",
+	"#21222c",// dracula violet bg
+	"#ff5555",
+	"#50fa7b",
+	"#f1fa8c",
+	"#bd93f8",
+	"#ff79c6",
+	"#8be9fd",
+	"#f8f8f8",
 
 	// 8 bright colors 
     // probably wont need this
@@ -155,7 +123,7 @@ static const char *colorname[] = {
 	"#cccccc",
 	"#555555",
 };
-*/
+//*/
 
 /*
  * Default colors (colorname index)
