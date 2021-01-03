@@ -5,7 +5,10 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Liberation Mono:pixelsize=16:antialias=true:autohint=true";
+//static char *font = "Liberation Mono:pixelsize=16:antialias=true:autohint=true";
+//Noto Mono for Powerline       -   Working
+//Inconsolata-g for Powerline   -   Good Looking
+static char *font = "Fira Mono for Powerline:pixelsize=16:antialias=true:autohint=true";
 static int borderpx = 2;
 float alpha = 0.9;
 
