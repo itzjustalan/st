@@ -9,6 +9,13 @@
 //Noto Mono for Powerline       -   Working
 //Inconsolata-g for Powerline   -   Good Looking
 static char *font = "Fira Mono for Powerline:pixelsize=16:antialias=true:autohint=true";
+// spare fonts
+static char *font2[] = {
+        "JetBrains Mono Medium:pixelsize=16:antialias=true:autohint=true", //ligatures
+        "IPAGothic:pixelsize=16:antialias=true:autohint=true",   //Japanese
+        "Symbola:pixelsize=16:antialias=true:autohint=true" //Unicode
+        "NotoColorEmoji:pixelsize=12:antialias=true:autohint=true",   //Googlemojis
+};
 static int borderpx = 2;
 float alpha = 0.9;
 
@@ -95,7 +102,7 @@ char *termname = "st-256color";
  *
  *	stty tabs
  */
-unsigned int tabspaces = 4;
+unsigned int tabspaces = 2;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
