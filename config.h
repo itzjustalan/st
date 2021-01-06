@@ -11,6 +11,7 @@
 static char *font = "Fira Mono for Powerline:pixelsize=16:antialias=true:autohint=true";
 // spare fonts
 static char *font2[] = {
+        //"Inconsolata for Powerline:pixelsize=10:antialias=true:autohint=true",
         "JetBrains Mono Medium:pixelsize=16:antialias=true:autohint=true", //ligatures
         "IPAGothic:pixelsize=16:antialias=true:autohint=true",   //Japanese
         "Symbola:pixelsize=16:antialias=true:autohint=true" //Unicode
