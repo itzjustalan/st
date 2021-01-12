@@ -11,11 +11,9 @@
 static char *font = "Fira Mono for Powerline:pixelsize=16:antialias=true:autohint=true";
 // spare fonts
 static char *font2[] = {
-        //"Inconsolata for Powerline:pixelsize=10:antialias=true:autohint=true",
-        "JetBrains Mono Medium:pixelsize=16:antialias=true:autohint=true", //ligatures
-        "IPAGothic:pixelsize=16:antialias=true:autohint=true",   //Japanese
-        "Symbola:pixelsize=16:antialias=true:autohint=true" //Unicode
-        "NotoColorEmoji:pixelsize=12:antialias=true:autohint=true",   //Googlemojis
+        "Fira Mono for Powerline:pixelsize=14:antialias=true:autohint=true",
+        "NotoColorEmoji:pixelsize=10:antialias=true:autohint=true",
+        "Symbola:pixelsize=14:antialias=true:autohint=true"
 };
 static int borderpx = 2;
 float alpha = 0.9;
