@@ -12,7 +12,7 @@ static char *font = "Fira Mono for Powerline:pixelsize=16:antialias=true:autohin
 // spare fonts
 static char *font2[] = {
         "Fira Mono for Powerline:pixelsize=14:antialias=true:autohint=true",
-        "NotoColorEmoji:pixelsize=10:antialias=true:autohint=true",
+        "NotoColorEmoji:pixelsize=14:antialias=true:autohint=true",
         "Symbola:pixelsize=14:antialias=true:autohint=true"
 };
 static int borderpx = 2;
