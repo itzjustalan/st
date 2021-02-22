@@ -105,7 +105,7 @@ unsigned int tabspaces = 2;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-	// 8 normal colors 
+	// 8 normal colors
 	"#21222c",// dracula violet bg
 	"#ff5555",
 	"#50fa7b",
@@ -115,7 +115,7 @@ static const char *colorname[] = {
 	"#8be9fd",
 	"#f8f8f8",
 
-	// 8 bright colors 
+	// 8 bright colors
     // probably wont need this
 	"gray50",
 	"red",
@@ -128,10 +128,11 @@ static const char *colorname[] = {
 
 	[255] = 0,
 
-	// more colors can be added after 255 to use with DefaultXX 
+	// more colors can be added after 255 to use with DefaultXX
 	"#cccccc",
 	"#555555",
-    "#21222c",
+  "#21222c",
+  "#011627",
 };
 //*/
 
@@ -140,7 +141,7 @@ static const char *colorname[] = {
  * foreground, background, cursor, reverse cursor
  */
 unsigned int defaultfg = 7;
-unsigned int defaultbg = 258;
+unsigned int defaultbg = 259;
 static unsigned int defaultcs = 256;
 static unsigned int defaultrcs = 257;
 
@@ -288,7 +289,7 @@ static Key key[] = {
 	{ XK_KP_Insert,     XK_ANY_MOD,     "\033[2~",      +1,    0},
 	{ XK_KP_Delete,     ControlMask,    "\033[M",       -1,    0},
 	{ XK_KP_Delete,     ControlMask,    "\033[3;5~",    +1,    0},
-    
+
 	//{ XK_KP_Delete,     ShiftMask,      "\033[2K",      -1,    0},
 	//{ XK_KP_Delete,     ShiftMask,      "\033[3;2~",    +1,    0},
 	//{ XK_KP_Delete,     XK_ANY_MOD,     "\033[P",       -1,    0},
